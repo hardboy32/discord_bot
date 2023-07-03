@@ -5,7 +5,7 @@ hbClient.login('TOKEN HERE');
 function chNickname() {
     const targetguild = hbClient.guilds.cache.get('686002315148394502');
     const me = targetguild.members.cache.get(hbClient.user.id);
-    const name = ['Ӈ', 'Ӈƛ', 'ӇƛƦ', 'ӇƛƦƊ', 'ӇƛƦƊ Ɓ', 'ӇƛƦƊ ƁƠ', 'ӇƛƦƊ ƁƠƳ', 'Unward Games'];
+    const name = ['Ӈ', 'Ӈƛ', 'ӇƛƦ', 'ӇƛƦƊ', 'ӇƛƦƊ Ɓ', 'ӇƛƦƊ ƁƠ', 'ӇƛƦƊ ƁƠƳ'];
 
     setInterval(() => {
         if (hbCounter == 7) {
